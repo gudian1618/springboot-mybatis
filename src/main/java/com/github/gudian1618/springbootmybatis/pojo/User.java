@@ -1,4 +1,4 @@
-package com.github.gudian1618.pojo;
+package com.github.gudian1618.springbootmybatis.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

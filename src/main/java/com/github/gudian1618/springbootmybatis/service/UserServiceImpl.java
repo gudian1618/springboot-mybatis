@@ -1,7 +1,7 @@
-package com.github.gudian1618.service;
+package com.github.gudian1618.springbootmybatis.service;
 
-import com.github.gudian1618.mapper.UserMapper;
-import com.github.gudian1618.pojo.User;
+import com.github.gudian1618.springbootmybatis.mapper.UserMapper;
+import com.github.gudian1618.springbootmybatis.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -33,5 +33,15 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> findAll() {
         return userMapper.findAll();
+    }
+
+    @Override
+    public int insertUser(User user) {
+        return userMapper.insertUser(user);
+    }
+
+    @Override
+    public int updateUser(User user) {
+        return userMapper.updateUser(user);
     }
 }

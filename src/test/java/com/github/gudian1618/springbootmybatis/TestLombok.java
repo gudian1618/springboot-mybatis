@@ -1,4 +1,6 @@
-import com.github.gudian1618.pojo.User;
+package com.github.gudian1618.springbootmybatis;
+
+import com.github.gudian1618.springbootmybatis.pojo.User;
 import org.junit.Test;
 
 /**
