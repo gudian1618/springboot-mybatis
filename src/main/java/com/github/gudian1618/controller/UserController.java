@@ -25,4 +25,10 @@ public class UserController {
     public List<User> findAll() {
         return userService.findAll();
     }
+
+    // 用户新增
+    public int insertUser(User user) {
+        return userService.insertUser(user);
+    }
+
 }
