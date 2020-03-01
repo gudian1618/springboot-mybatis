@@ -13,8 +13,8 @@ spring:
     username: root
     password: 123456
 
-# 整合mybatis
-mybatis:
+# 整合mybatis或者mybatis-plus,只有名称改变,里面具体配置完全一致
+mybatis-plus:
   # 配置别名包
   type-aliases-package: com.github.gudian1618.pojo
   # 配置mapper映射文件

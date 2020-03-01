@@ -1,5 +1,6 @@
 package com.github.gudian1618.springbootmybatis.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.github.gudian1618.springbootmybatis.pojo.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
@@ -14,7 +15,7 @@ import java.util.List;
  */
 
 //@Mapper
-public interface UserMapper {
+public interface UserMapper extends BaseMapper<User> {
     /**
      * 查询全部的user表中的数据
      */
