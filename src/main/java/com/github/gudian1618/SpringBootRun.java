@@ -1,5 +1,6 @@
 package com.github.gudian1618;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,6 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
+// 为mapper接口创建代理对象
+@MapperScan("com.github.gudian1618.mapper")
 public class SpringBootRun {
 
     public static void main(String[] args) {

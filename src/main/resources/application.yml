@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 8091
   servlet:
     context-path: /
 
@@ -19,7 +19,7 @@ mybatis:
   type-aliases-package: com.github.gudian1618.pojo
   # 配置mapper映射文件
   mapper-locations: classpath:/mybatis/mappers/*.xml
-  # 开启驼峰映射
+  # 开启驼峰映射规则,则可以自动的实现对象的赋值
   configuration:
     map-underscore-to-camel-case: true
 
