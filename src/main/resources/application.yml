@@ -23,5 +23,8 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
 
-  
-  
+# 添加日志输出
+logging:
+  level:
+    com.github.gudian1618.springbootmybatis: debug
+
